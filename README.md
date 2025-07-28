@@ -60,9 +60,8 @@ Create a `challenge1b_input.json` file in the `input/` directory:
 
 **PDF Organization Options:**
 - **✅ RECOMMENDED**: Place PDFs in `input/PDFs/` directory (most reliable)
-- **⚠️ FALLBACK**: Place PDFs directly in `input/` directory (system will auto-detect)
+- **⚠️ FALLBACK**: Place PDFs directly in `input/` directory (system will auto-detect, but its better to avoid this way)
 
-The system includes comprehensive fallback detection and will search multiple locations automatically.
 
 ### 3. Build Docker Image
 ```bash

@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the package files
 COPY persona_document_intelligence/ /app/persona_document_intelligence/
-COPY main.py setup.py pyproject.toml /app/
+COPY main.py pyproject.toml /app/
 
 # Install the package in development mode
 RUN pip install -e .
