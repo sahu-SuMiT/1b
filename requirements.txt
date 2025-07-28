@@ -1,0 +1,5 @@
+pdfplumber
+scikit-learn
+sentence-transformers
+nltk
+regex 
